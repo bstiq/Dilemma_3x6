@@ -2323,6 +2323,7 @@
     )
   )
 
+
   (junction (at 8.89 234.95) (diameter 0) (color 0 0 0 0)
     (uuid 024aec87-418d-43e2-982b-d40b3ec576b4)
   )
@@ -5401,7 +5402,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 124.46 255.27 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0397a46e-b231-4278-b35c-fbeb4dfde2fc)
-    (property "Reference" "SW?" (id 0) (at 124.46 247.65 0))
+    (property "Reference" "SW122" (id 0) (at 124.46 247.65 0))
     (property "Value" "SW_Push" (id 1) (at 124.46 250.19 0))
     (property "Footprint" "local-libraries:SW_MX_choc" (id 2) (at 124.46 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6197,7 +6198,7 @@
   (symbol (lib_id "Device:D") (at 134.62 255.27 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3f89b463-d3d1-4e4b-986f-c05d51f58a38)
-    (property "Reference" "D?" (id 0) (at 132.715 252.73 90)
+    (property "Reference" "D120" (id 0) (at 132.715 252.73 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (id 1) (at 135.255 252.73 90)
@@ -6709,7 +6710,7 @@
   (symbol (lib_id "Device:D") (at 134.62 234.95 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 727f97ca-0e92-4646-88f0-91e2a4c7207c)
-    (property "Reference" "D?" (id 0) (at 132.715 232.41 90)
+    (property "Reference" "D118" (id 0) (at 132.715 232.41 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (id 1) (at 135.255 232.41 90)
@@ -7853,7 +7854,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 124.46 234.95 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cfd6d7d9-e276-49ef-829b-32515e258b69)
-    (property "Reference" "SW?" (id 0) (at 124.46 227.33 0))
+    (property "Reference" "SW120" (id 0) (at 124.46 227.33 0))
     (property "Value" "SW_Push" (id 1) (at 124.46 229.87 0))
     (property "Footprint" "local-libraries:SW_MX_choc" (id 2) (at 124.46 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8077,7 +8078,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 124.46 245.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e16d14b5-09e0-413d-bf9e-c02fd14a7dee)
-    (property "Reference" "SW?" (id 0) (at 124.46 237.49 0))
+    (property "Reference" "SW121" (id 0) (at 124.46 237.49 0))
     (property "Value" "SW_Push" (id 1) (at 124.46 240.03 0))
     (property "Footprint" "local-libraries:SW_MX_choc" (id 2) (at 124.46 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8123,7 +8124,7 @@
   (symbol (lib_id "Device:D") (at 134.62 245.11 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e479d062-53cb-4cef-b140-4bdae47046cc)
-    (property "Reference" "D?" (id 0) (at 132.715 242.57 90)
+    (property "Reference" "D119" (id 0) (at 132.715 242.57 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D" (id 1) (at 135.255 242.57 90)
@@ -8612,14 +8613,14 @@
     (path "/5341f75f-445e-45d6-8d7c-693459db4b8f"
       (reference "D117") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
     )
-    (path "/3f89b463-d3d1-4e4b-986f-c05d51f58a38"
-      (reference "D?") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
-    )
     (path "/727f97ca-0e92-4646-88f0-91e2a4c7207c"
-      (reference "D?") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
+      (reference "D118") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
     )
     (path "/e479d062-53cb-4cef-b140-4bdae47046cc"
-      (reference "D?") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
+      (reference "D119") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
+    )
+    (path "/3f89b463-d3d1-4e4b-986f-c05d51f58a38"
+      (reference "D120") (unit 1) (value "D") (footprint "local-libraries:D_1206_handsolder_reversible")
     )
     (path "/ce9365fe-085a-4731-86d8-fc3e6b16f716"
       (reference "F1") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_0603_1608Metric")
@@ -8828,14 +8829,14 @@
     (path "/f5322e2e-cac3-432e-bda8-0a4cf8376319"
       (reference "SW119") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
     )
-    (path "/0397a46e-b231-4278-b35c-fbeb4dfde2fc"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
-    )
     (path "/cfd6d7d9-e276-49ef-829b-32515e258b69"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
+      (reference "SW120") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
     )
     (path "/e16d14b5-09e0-413d-bf9e-c02fd14a7dee"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
+      (reference "SW121") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
+    )
+    (path "/0397a46e-b231-4278-b35c-fbeb4dfde2fc"
+      (reference "SW122") (unit 1) (value "SW_Push") (footprint "local-libraries:SW_MX_choc")
     )
     (path "/073e7a20-6222-4c9d-9f89-871bf718b9fb"
       (reference "U1") (unit 1) (value "RP2040") (footprint "0xLib_Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
