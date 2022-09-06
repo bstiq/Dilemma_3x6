@@ -61,8 +61,8 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ff0ffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "dilemma_3x6.kicad_prl",
